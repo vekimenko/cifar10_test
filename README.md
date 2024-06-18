@@ -1,5 +1,3 @@
-**Sky Interview MLE Technical Test**
-
 **Test description**
 
 cifar_model.py is a barebones script developed on a local machine that
@@ -67,7 +65,7 @@ C:\\Users\\\<user\>\\tensorflow_datasets\\cifar10\\3.0.2:
 
 3\. Upload TFRecords files to the bucket in 'eval' and 'train' folders.
 
-![](./image1.png){width="2.3125in" height="1.2361111111111112in"}
+![](./image1.png)
 
 **Step 2 Generate and run a Vertex pipeline**
 
@@ -82,8 +80,7 @@ pip install -U google-cloud-aiplatform \"shapely\<2\"
 Once all packages installed run all cells up to the one which submits
 the pipeline to Vertex.
 
-![](./image2.png){width="6.6930555555555555in"
-height="4.700694444444444in"}
+![](./image2.png)
 
 **Step 3 Upload the model to an endpoint**
 
@@ -98,5 +95,4 @@ Upload the model to the endpoint with the function provided.
 
 Check the model in the endpoint:
 
-![](./image3.png){width="5.613888888888889in"
-height="3.0701388888888888in"}
+![](./image3.png)
