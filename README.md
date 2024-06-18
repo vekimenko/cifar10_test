@@ -96,3 +96,7 @@ Upload the model to the endpoint with the function provided.
 Check the model in the endpoint:
 
 ![](./image3.png)
+
+
+
+
